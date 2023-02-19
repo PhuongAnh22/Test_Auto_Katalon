@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_MakeAppointmentSuccessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f29019dd-271a-4fa9-9b0e-e316a9cd83d5</testCaseGuid>
+</TestCaseEntity>
