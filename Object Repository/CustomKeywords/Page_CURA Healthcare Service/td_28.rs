@@ -6,15 +6,18 @@
    <elementGuidId>019b585e-c456-478f-88b6-e28587c5fc2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[31]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '${DatePicker}' or . = '${DatePicker}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[31]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>2bb32b5d-42d1-496b-9fc2-46469d0e7142</webElementGuid>
+      <webElementGuid>e9c4ef56-dc32-4a19-9cb1-3e8d95968e20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +33,15 @@
       <name>class</name>
       <type>Main</type>
       <value>day</value>
-      <webElementGuid>5f7ffce0-7d64-4390-99ba-72f62525a92a</webElementGuid>
+      <webElementGuid>d512c445-e423-414c-a9fe-8f27060f976c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>28</value>
-      <webElementGuid>8dfe4477-8a69-4d4f-9a94-ee88a41658d2</webElementGuid>
+      <value>${DatePicker}</value>
+      <webElementGuid>c533db93-79aa-4c1b-92e9-2172b4661d0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[5]/td[@class=&quot;day&quot;]</value>
-      <webElementGuid>555bdc76-303c-4738-8645-5ede66539280</webElementGuid>
+      <webElementGuid>5326b0a6-bbeb-43f1-9272-7cd672c7c2f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[31]</value>
-      <webElementGuid>5b7cf860-aa1c-4d47-ae6a-c6508d4edc8f</webElementGuid>
+      <webElementGuid>e8bb3a94-b22d-4364-80bf-bf4866c6c316</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::td[31]</value>
-      <webElementGuid>21977dc0-24a7-475c-8a61-a61b61b249ea</webElementGuid>
+      <webElementGuid>f7293b97-9ec7-437f-9891-f53d1c39aab2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::td[12]</value>
-      <webElementGuid>cfe8980e-7d94-4699-8754-dcec60a44081</webElementGuid>
+      <webElementGuid>3893e8c2-da68-4a34-aff0-6ae531e9ab59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::td[12]</value>
-      <webElementGuid>3aa024a2-8f02-4fc3-a66a-f71d84f3cc26</webElementGuid>
+      <webElementGuid>10dceb7a-527e-465f-b09b-e8e31c33a198</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='28']/parent::*</value>
-      <webElementGuid>5525e176-228c-4123-b66b-970bfad8123f</webElementGuid>
+      <webElementGuid>32108670-2fc5-43ce-9d10-e0bae0c4bc0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[3]</value>
-      <webElementGuid>44bd3535-f0e5-46f4-97b1-32bae69db0ee</webElementGuid>
+      <webElementGuid>413aed19-ea67-454c-9028-861832dbf2b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '28' or . = '28')]</value>
-      <webElementGuid>64bfe7f7-d55e-4902-8533-dc036fae4ce8</webElementGuid>
+      <webElementGuid>2002d5b9-0089-46e3-ab85-7d3cc60e61c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

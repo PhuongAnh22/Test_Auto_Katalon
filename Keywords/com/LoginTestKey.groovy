@@ -27,16 +27,16 @@ public class LoginTestKey {
 
 		WebUI.openBrowser('')
 
-		WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+		WebUI.navigateToUrl(GlobalVariable.URL)
 
 		WebUI.click(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
 		WebUI.click(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/a_Login'))
 
-		WebUI.setText(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+		WebUI.setText(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/input_Username_username'), GlobalVariable.Username)
 
-		WebUI.setEncryptedText(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/input_Password_password'),
-				'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+		WebUI.setText(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/input_Password_password'),
+				GlobalVariable.Password)
 
 		WebUI.click(findTestObject('Object Repository/CustomKeywords/Page_CURA Healthcare Service/button_Login'))
 	}
