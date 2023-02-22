@@ -35,6 +35,6 @@ public class TestFirstJS {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
 		JavascriptExecutor executor = ((driver) as JavascriptExecutor)
-		executor.executeScript("arguments[0].click", element)
+		executor.executeScript('arguments[0].click()', element)
 	}
 }
