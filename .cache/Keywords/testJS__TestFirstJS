@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "04BA1B56F02A1EC0D7DBEC3D3A0416BC",
+  "keywordFileContentHash": "8DB1B939525B13A5B7694BAD7B50C11A",
   "keywordClasses": [
     {
       "name": "testJS.TestFirstJS",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
