@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>d58a5db1-9c1f-40ec-94bb-cd7a826e0a3e</dataFileGUID>
-   <dataSourceUrl>C:\Katalon_Learning\LoginData.xlsx</dataSourceUrl>
+   <dataSourceUrl>E:\Katalon_Learning\LoginData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
